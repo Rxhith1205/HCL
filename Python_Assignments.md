@@ -1,5 +1,4 @@
 # Python Assignments
-# Author: Adithya V
 # Date: 29/09/2026
 
 
