@@ -1,13 +1,8 @@
 # NUMPY ASSIGNMENT
 
-**Course:** Python Programming\
-**Topic:** NumPy -- Basics to Advanced
-
-------------------------------------------------------------------------
-
 # Question 1 -- Student Marks Array
 
-**Problem:**\
+**Problem:**
 The marks obtained by five students are `[78, 65, 89, 56, 92]`. Create a
 NumPy array and display the array along with its basic properties.
 
@@ -23,7 +18,6 @@ print("Size:", marks.size)
 print("Data type:", marks.dtype)
 ```
 
-------------------------------------------------------------------------
 
 # Question 2 -- Student Marks Access
 
@@ -44,7 +38,7 @@ print("Last 2:", marks[-2:])
 print("2nd to 4th:", marks[1:4])
 ```
 
-------------------------------------------------------------------------
+
 
 # Question 3 -- Subject-wise Marks
 
@@ -69,7 +63,6 @@ print(student_marks)
 print("Shape:", student_marks.shape)
 ```
 
-------------------------------------------------------------------------
 
 # Question 4 -- Internal and External Marks
 
@@ -89,7 +82,6 @@ print("External:", external)
 print("Final:", total)
 ```
 
-------------------------------------------------------------------------
 
 # Question 5 -- Pass Percentage Analysis
 
