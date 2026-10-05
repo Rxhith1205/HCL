@@ -1,0 +1,22 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+import time
+
+driver = webdriver.Chrome()
+
+driver.get("https://www.google.com/")
+
+search = driver.find_element(By.NAME, "q")
+
+search.send_keys("Actor dhanush")
+
+print(search.get_attribute("value"))
+
+search.send_keys(Keys.ENTER)
+
+time.sleep(3)
+
+driver.get("https://www.google.com/imgres?q=dhanush&imgurl=https%3A%2F%2Fbookingagentinfo.com%2Fwp-content%2Fuploads%2F2024%2F06%2FDhanush-scaled-1.jpg&imgrefurl=https%3A%2F%2Fbookingagentinfo.com%2Fcelebrity%2Fdhanush%2F&docid=S1MGle3F7X9MfM&tbnid=M_XxUKput8feDM&vet=12ahUKEwi48fnZm6KXAxXCkOEIHWbKOhcQnPAOegQIMRAA..i&w=2560&h=2560&hcb=2&ved=2ahUKEwi48fnZm6KXAxXCkOEIHWbKOhcQnPAOegQIMRAA")
+
+time.sleep(5)
